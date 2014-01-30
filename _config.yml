@@ -3,7 +3,7 @@ pygments: true
 
 title: John Michael Luy
 
-url: http://www.jmluy.com
+baseurl: http://www.jmluy.com
 
 permalink: /:year/:month/:day/:title/
 

@@ -1,0 +1,22 @@
+markdown: redcarpet
+pygments: true
+
+title: John Michael Luy
+
+url: http://www.jmluy.com
+
+permalink: /:year/:month/:day/:title/
+
+author:
+    name: John Michael Luy
+    email: johnmichael.luy@gmail.com
+    github: jmluy
+    linkedin: http://ph.linkedin.com/in/jmluy
+    twitter: jmluy
+    gravatar: http://www.gravatar.com/avatar/5b7d3122776b44cfb18ed7aa865804a1.png
+
+analytics:
+    provider: google 
+    google: 
+        tracking_id: 'UA-29524193-1'
+        domain: 'jmluy.com'

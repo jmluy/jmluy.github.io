@@ -18,20 +18,20 @@
 <meta property="og:description" content="Sample config for WebServiceTemplate
 &lt;bean id=&#34;saajMessageFactory&#34; class=&#34;org.springframework.ws.soap.saaj.SaajSoapMessageFactory&#34;&gt; &lt;property name=&#34;soapVersion&#34;&gt; &lt;util:constant static-field=&#34;org.springframework.ws.soap.SoapVersion.SOAP_12&#34;/&gt; &lt;/property&gt; &lt;/bean&gt; &lt;bean id=&#34;marshaller&#34; class=&#34;org.springframework.oxm.jaxb.Jaxb2Marshaller&#34; p:contextPath=&#34;com.whatever:com.another.package&#34;/&gt; &lt;bean id=&#34;wsTemplate&#34; class=&#34;org.springframework.ws.client.core.WebServiceTemplate&#34; p:messageFactory-ref=&#34;saajMessageFactory&#34; p:defaultUri=&#34;http://whatever&#34; p:marshaller-ref=&#34;marshaller&#34; p:unmarshaller-ref=&#34;marshaller&#34;/&gt; To specify more than 1 path for the marshaller, just use colons to separate the packages." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.jmluy.com/posts/spring-ws-client/" />
+<meta property="og:url" content="http://www.jmluy.dev/posts/spring-ws-client/" />
 <meta property="article:published_time" content="2010-06-01T08:18:23&#43;08:00"/>
 <meta property="article:modified_time" content="2010-06-01T08:18:23&#43;08:00"/>
 
 
     
-      <base href="http://www.jmluy.com/posts/spring-ws-client/">
+      <base href="http://www.jmluy.dev/posts/spring-ws-client/">
     
     <title>
   Using Spring-WS for creating a client · John Michael Luy
 </title>
 
     
-      <link rel="canonical" href="http://www.jmluy.com/posts/spring-ws-client/">
+      <link rel="canonical" href="http://www.jmluy.dev/posts/spring-ws-client/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
@@ -41,7 +41,7 @@
     
       
       
-      <link rel="stylesheet" href="http://www.jmluy.com/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="http://www.jmluy.dev/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -52,8 +52,8 @@
 
     
     
-    <link rel="icon" type="image/png" href="http://www.jmluy.com/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="http://www.jmluy.com/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="http://www.jmluy.dev/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://www.jmluy.dev/images/favicon-16x16.png" sizes="16x16">
 
     <meta name="generator" content="Hugo 0.55.6" />
   </head>
@@ -62,7 +62,7 @@
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="http://www.jmluy.com">
+    <a class="navigation-title" href="http://www.jmluy.dev">
       John Michael Luy
     </a>
     <input type="checkbox" id="menu-toggle" />
@@ -71,15 +71,15 @@
       
         
           <li class="navigation-item">
-            <a class="navigation-link" href="http://www.jmluy.com/about/">About</a>
+            <a class="navigation-link" href="http://www.jmluy.dev/about/">About</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="http://www.jmluy.com/posts/">Blog</a>
+            <a class="navigation-link" href="http://www.jmluy.dev/posts/">Blog</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="http://www.jmluy.com/resume/">Resume</a>
+            <a class="navigation-link" href="http://www.jmluy.dev/resume/">Resume</a>
           </li>
         
       
@@ -112,15 +112,15 @@
           </div>
           <div class="categories">
   <i class="fas fa-folder"></i>
-    <a href="http://www.jmluy.com/categories/development/">development</a>
+    <a href="http://www.jmluy.dev/categories/development/">development</a>
       <span class="separator">•</span>
-    <a href="http://www.jmluy.com/categories/java/">java</a>
+    <a href="http://www.jmluy.dev/categories/java/">java</a>
       <span class="separator">•</span>
-    <a href="http://www.jmluy.com/categories/spring-mvc/">spring mvc</a></div>
+    <a href="http://www.jmluy.dev/categories/spring-mvc/">spring mvc</a></div>
 
           <div class="tags">
   <i class="fas fa-tag"></i>
-    <a href="http://www.jmluy.com/tags/spring-mvc/">spring mvc</a></div>
+    <a href="http://www.jmluy.dev/tags/spring-mvc/">spring mvc</a></div>
 
         </div>
       </header>
@@ -170,7 +170,7 @@
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
         <div id="commento"></div>
-<script src="http://www.jmluy.com/js/commento.js"></script>
+<script src="http://www.jmluy.dev/js/commento.js"></script>
       </footer>
     </article>
 

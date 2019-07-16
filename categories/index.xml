@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on John Michael Luy</title>
-    <link>http://www.jmluy.com/categories/</link>
+    <link>http://www.jmluy.dev/categories/</link>
     <description>Recent content in Categories on John Michael Luy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 01 Jun 2010 08:18:23 +0800</lastBuildDate>
     
-	<atom:link href="http://www.jmluy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.jmluy.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>development</title>
-      <link>http://www.jmluy.com/categories/development/</link>
+      <link>http://www.jmluy.dev/categories/development/</link>
       <pubDate>Tue, 01 Jun 2010 08:18:23 +0800</pubDate>
       
-      <guid>http://www.jmluy.com/categories/development/</guid>
+      <guid>http://www.jmluy.dev/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java</title>
-      <link>http://www.jmluy.com/categories/java/</link>
+      <link>http://www.jmluy.dev/categories/java/</link>
       <pubDate>Tue, 01 Jun 2010 08:18:23 +0800</pubDate>
       
-      <guid>http://www.jmluy.com/categories/java/</guid>
+      <guid>http://www.jmluy.dev/categories/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>spring mvc</title>
-      <link>http://www.jmluy.com/categories/spring-mvc/</link>
+      <link>http://www.jmluy.dev/categories/spring-mvc/</link>
       <pubDate>Tue, 01 Jun 2010 08:18:23 +0800</pubDate>
       
-      <guid>http://www.jmluy.com/categories/spring-mvc/</guid>
+      <guid>http://www.jmluy.dev/categories/spring-mvc/</guid>
       <description></description>
     </item>
     

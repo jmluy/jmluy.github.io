@@ -6,10 +6,29 @@
     <description>Recent content in spring mvc on John Michael Luy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Jun 2010 08:18:23 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 28 Sep 2010 09:16:22 +0800</lastBuildDate>
     
 	<atom:link href="https://www.jmluy.dev/categories/spring-mvc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using a custom validator with JSR 303 annotations</title>
+      <link>https://www.jmluy.dev/posts/custom-validator-jsr330-annotations/</link>
+      <pubDate>Tue, 28 Sep 2010 09:16:22 +0800</pubDate>
+      
+      <guid>https://www.jmluy.dev/posts/custom-validator-jsr330-annotations/</guid>
+      <description>I was using JSR 303 annotations for validating my models but i had a scenario where i need to extend the validation by adding my own validator. So what i did was create a validator implementing spring&amp;rsquo;s validator interface then extending LocalValidatorFactoryBean. The thing to note is not to instantiate the validator yourself but just add the autowire annotation and let the container inject the correct validator for you.
+The model</description>
+    </item>
+    
+    <item>
+      <title>Hibernate, Oracle and the empty string</title>
+      <link>https://www.jmluy.dev/posts/hibernate-oracle-empty-string/</link>
+      <pubDate>Thu, 12 Aug 2010 11:18:05 +0800</pubDate>
+      
+      <guid>https://www.jmluy.dev/posts/hibernate-oracle-empty-string/</guid>
+      <description>We had a model that contained an annotation specifying that it shouldn&amp;rsquo;t be null. It works with Postgres when we were inserting empty strings. But with Oracle, it&amp;rsquo;s throwing an exception. Apparently, Oracle converts empty strings to null. Just one of those quirks. As a workaround, we just allowed null entries.</description>
+    </item>
     
     <item>
       <title>Using Spring-WS for creating a client</title>

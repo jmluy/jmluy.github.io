@@ -4,25 +4,59 @@
   
   <url>
     <loc>https://www.jmluy.dev/categories/</loc>
-    <lastmod>2010-06-01T08:18:23+08:00</lastmod>
+    <lastmod>2010-09-28T09:16:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.jmluy.dev/</loc>
-    <lastmod>2010-06-01T08:18:23+08:00</lastmod>
+    <lastmod>2010-09-28T09:16:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.jmluy.dev/posts/</loc>
-    <lastmod>2010-06-01T08:18:23+08:00</lastmod>
+    <lastmod>2010-09-28T09:16:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.jmluy.dev/tags/</loc>
-    <lastmod>2010-06-01T08:18:23+08:00</lastmod>
+    <lastmod>2010-09-28T09:16:22+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jmluy.dev/posts/custom-validator-jsr330-annotations/</loc>
+    <lastmod>2010-09-28T09:16:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jmluy.dev/categories/development/</loc>
+    <lastmod>2010-09-28T09:16:22+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jmluy.dev/tags/spring-mvc/</loc>
+    <lastmod>2010-09-28T09:16:22+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jmluy.dev/categories/spring-mvc/</loc>
+    <lastmod>2010-09-28T09:16:22+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jmluy.dev/posts/hibernate-oracle-empty-string/</loc>
+    <lastmod>2010-08-12T11:18:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jmluy.dev/categories/java/</loc>
+    <lastmod>2010-08-12T11:18:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -32,32 +66,13 @@
   </url>
   
   <url>
-    <loc>https://www.jmluy.dev/categories/development/</loc>
-    <lastmod>2010-06-01T08:18:23+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jmluy.dev/categories/java/</loc>
-    <lastmod>2010-06-01T08:18:23+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jmluy.dev/categories/spring-mvc/</loc>
-    <lastmod>2010-06-01T08:18:23+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jmluy.dev/tags/spring-mvc/</loc>
-    <lastmod>2010-06-01T08:18:23+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.jmluy.dev/posts/accessing-spring-beans-from-jsp/</loc>
     <lastmod>2010-05-20T11:41:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jmluy.dev/posts/code-license/</loc>
+    <lastmod>2010-01-31T12:41:18+08:00</lastmod>
   </url>
   
   <url>

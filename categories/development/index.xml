@@ -6,10 +6,29 @@
     <description>Recent content in development on John Michael Luy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Jun 2010 08:18:23 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 28 Sep 2010 09:16:22 +0800</lastBuildDate>
     
 	<atom:link href="https://www.jmluy.dev/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using a custom validator with JSR 303 annotations</title>
+      <link>https://www.jmluy.dev/posts/custom-validator-jsr330-annotations/</link>
+      <pubDate>Tue, 28 Sep 2010 09:16:22 +0800</pubDate>
+      
+      <guid>https://www.jmluy.dev/posts/custom-validator-jsr330-annotations/</guid>
+      <description>I was using JSR 303 annotations for validating my models but i had a scenario where i need to extend the validation by adding my own validator. So what i did was create a validator implementing spring&amp;rsquo;s validator interface then extending LocalValidatorFactoryBean. The thing to note is not to instantiate the validator yourself but just add the autowire annotation and let the container inject the correct validator for you.
+The model</description>
+    </item>
+    
+    <item>
+      <title>Hibernate, Oracle and the empty string</title>
+      <link>https://www.jmluy.dev/posts/hibernate-oracle-empty-string/</link>
+      <pubDate>Thu, 12 Aug 2010 11:18:05 +0800</pubDate>
+      
+      <guid>https://www.jmluy.dev/posts/hibernate-oracle-empty-string/</guid>
+      <description>We had a model that contained an annotation specifying that it shouldn&amp;rsquo;t be null. It works with Postgres when we were inserting empty strings. But with Oracle, it&amp;rsquo;s throwing an exception. Apparently, Oracle converts empty strings to null. Just one of those quirks. As a workaround, we just allowed null entries.</description>
+    </item>
     
     <item>
       <title>Using Spring-WS for creating a client</title>
@@ -29,6 +48,15 @@
       <guid>https://www.jmluy.dev/posts/accessing-spring-beans-from-jsp/</guid>
       <description>Spring MVC can expose your beans to JSTL. To expose all your beans, you can configure your view resolver like the following.
 &amp;lt;bean id=&amp;#34;viewResolver&amp;#34; class=&amp;#34;org.springframework.web.servlet.view.InternalResourceViewResolver&amp;#34;&amp;gt; &amp;lt;property name=&amp;#34;viewClass&amp;#34; value=&amp;#34;org.springframework.web.servlet.view.JstlView&amp;#34;/&amp;gt; &amp;lt;property name=&amp;#34;exposeContextBeansAsAttributes&amp;#34; value=&amp;#34;true&amp;#34;/&amp;gt; &amp;lt;property name=&amp;#34;prefix&amp;#34; value=&amp;#34;/WEB-INF/view&amp;#34;/&amp;gt; &amp;lt;property name=&amp;#34;suffix&amp;#34; value=&amp;#34;.jsp&amp;#34;/&amp;gt; &amp;lt;/bean&amp;gt; Alternatively, to only expose selected beans you can use exposedContextBeanNames to only expose specific beans. You can use either of those 2 properties.</description>
+    </item>
+    
+    <item>
+      <title>Code license</title>
+      <link>https://www.jmluy.dev/posts/code-license/</link>
+      <pubDate>Sun, 31 Jan 2010 12:41:18 +0800</pubDate>
+      
+      <guid>https://www.jmluy.dev/posts/code-license/</guid>
+      <description>Just to keep it simple for those who use code here that are made by me&amp;hellip; All my original contributions in this blog are placed into the public domain. If this is not legally possible, then anyone receiving a copy of them by any means is granted a non-exclusive perpetual license to use, distribute and modify them, and to distribute modifications, under any license or none, with or without attribution to me.</description>
     </item>
     
   </channel>

@@ -6,10 +6,19 @@
     <description>Recent content in java on John Michael Luy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Jun 2010 08:18:23 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Aug 2010 11:18:05 +0800</lastBuildDate>
     
 	<atom:link href="https://www.jmluy.dev/categories/java/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hibernate, Oracle and the empty string</title>
+      <link>https://www.jmluy.dev/posts/hibernate-oracle-empty-string/</link>
+      <pubDate>Thu, 12 Aug 2010 11:18:05 +0800</pubDate>
+      
+      <guid>https://www.jmluy.dev/posts/hibernate-oracle-empty-string/</guid>
+      <description>We had a model that contained an annotation specifying that it shouldn&amp;rsquo;t be null. It works with Postgres when we were inserting empty strings. But with Oracle, it&amp;rsquo;s throwing an exception. Apparently, Oracle converts empty strings to null. Just one of those quirks. As a workaround, we just allowed null entries.</description>
+    </item>
     
     <item>
       <title>Using Spring-WS for creating a client</title>

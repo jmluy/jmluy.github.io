@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>java on John Michael Luy</title>
-    <link>http://www.jmluy.dev/categories/java/</link>
+    <link>https://www.jmluy.dev/categories/java/</link>
     <description>Recent content in java on John Michael Luy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 01 Jun 2010 08:18:23 +0800</lastBuildDate>
     
-	<atom:link href="http://www.jmluy.dev/categories/java/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.jmluy.dev/categories/java/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using Spring-WS for creating a client</title>
-      <link>http://www.jmluy.dev/posts/spring-ws-client/</link>
+      <link>https://www.jmluy.dev/posts/spring-ws-client/</link>
       <pubDate>Tue, 01 Jun 2010 08:18:23 +0800</pubDate>
       
-      <guid>http://www.jmluy.dev/posts/spring-ws-client/</guid>
+      <guid>https://www.jmluy.dev/posts/spring-ws-client/</guid>
       <description>Sample config for WebServiceTemplate
 &amp;lt;bean id=&amp;#34;saajMessageFactory&amp;#34; class=&amp;#34;org.springframework.ws.soap.saaj.SaajSoapMessageFactory&amp;#34;&amp;gt; &amp;lt;property name=&amp;#34;soapVersion&amp;#34;&amp;gt; &amp;lt;util:constant static-field=&amp;#34;org.springframework.ws.soap.SoapVersion.SOAP_12&amp;#34;/&amp;gt; &amp;lt;/property&amp;gt; &amp;lt;/bean&amp;gt; &amp;lt;bean id=&amp;#34;marshaller&amp;#34; class=&amp;#34;org.springframework.oxm.jaxb.Jaxb2Marshaller&amp;#34; p:contextPath=&amp;#34;com.whatever:com.another.package&amp;#34;/&amp;gt; &amp;lt;bean id=&amp;#34;wsTemplate&amp;#34; class=&amp;#34;org.springframework.ws.client.core.WebServiceTemplate&amp;#34; p:messageFactory-ref=&amp;#34;saajMessageFactory&amp;#34; p:defaultUri=&amp;#34;http://whatever&amp;#34; p:marshaller-ref=&amp;#34;marshaller&amp;#34; p:unmarshaller-ref=&amp;#34;marshaller&amp;#34;/&amp;gt; To specify more than 1 path for the marshaller, just use colons to separate the packages.</description>
     </item>
     
     <item>
       <title>Accessing Spring beans from your jsp</title>
-      <link>http://www.jmluy.dev/posts/accessing-spring-beans-from-jsp/</link>
+      <link>https://www.jmluy.dev/posts/accessing-spring-beans-from-jsp/</link>
       <pubDate>Thu, 20 May 2010 11:41:11 +0800</pubDate>
       
-      <guid>http://www.jmluy.dev/posts/accessing-spring-beans-from-jsp/</guid>
+      <guid>https://www.jmluy.dev/posts/accessing-spring-beans-from-jsp/</guid>
       <description>Spring MVC can expose your beans to JSTL. To expose all your beans, you can configure your view resolver like the following.
 &amp;lt;bean id=&amp;#34;viewResolver&amp;#34; class=&amp;#34;org.springframework.web.servlet.view.InternalResourceViewResolver&amp;#34;&amp;gt; &amp;lt;property name=&amp;#34;viewClass&amp;#34; value=&amp;#34;org.springframework.web.servlet.view.JstlView&amp;#34;/&amp;gt; &amp;lt;property name=&amp;#34;exposeContextBeansAsAttributes&amp;#34; value=&amp;#34;true&amp;#34;/&amp;gt; &amp;lt;property name=&amp;#34;prefix&amp;#34; value=&amp;#34;/WEB-INF/view&amp;#34;/&amp;gt; &amp;lt;property name=&amp;#34;suffix&amp;#34; value=&amp;#34;.jsp&amp;#34;/&amp;gt; &amp;lt;/bean&amp;gt; Alternatively, to only expose selected beans you can use exposedContextBeanNames to only expose specific beans. You can use either of those 2 properties.</description>
     </item>

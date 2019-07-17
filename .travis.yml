@@ -1,0 +1,29 @@
+language: python
+python:
+  - "3.6"
+
+before_script:
+  - git config --global user.name 'John Michael Luy'
+  - git config --global user.email 'jmluy17@gmail.com'
+install:
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_0.55.6_Linux-64bit.deb
+  - sudo dpkg -i hugo*.deb
+  - pip install Pygments
+  - rm -rf docs 2> /dev/null
+script:
+  - hugo
+
+after_success:
+  - mkdir .deploy
+  - cd .deploy
+  - git clone --depth 1 --branch master --single-branch $DEPLOY_REPO . || (git init && git remote add -t master origin $DEPLOY_REPO)
+  - rm -rf ./*
+  - cp ../CNAME ./
+  - git add -A .
+  - git commit -m 'Site updated'
+  - git branch -m master
+  - git push -q -u origin master
+
+branches:
+  only:
+    - source

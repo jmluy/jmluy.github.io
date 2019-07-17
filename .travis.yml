@@ -3,13 +3,16 @@ python:
   - "3.6"
 
 before_script:
+  - echo $GITHUB_AUTH_SECRET > ~/.git-credentials && chmod 0600 ~/.git-credentials
   - git config --global user.name 'John Michael Luy'
-  - git config --global user.email 'jmluy17@gmail.com'
+  - git config --global user.email 'johnmichael.luy@gmail.com'
+  - git config --global credential.helper store
+
 install:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_0.55.6_Linux-64bit.deb
   - sudo dpkg -i hugo*.deb
   - pip install Pygments
-  - rm -rf docs 2> /dev/null
+  - rm -rf public 2> /dev/null
 script:
   - hugo
 
@@ -18,9 +21,10 @@ after_success:
   - cd .deploy
   - git clone --depth 1 --branch master --single-branch $DEPLOY_REPO . || (git init && git remote add -t master origin $DEPLOY_REPO)
   - rm -rf ./*
+  - cp -r ../public/* ./
   - cp ../CNAME ./
   - git add -A .
-  - git commit -m 'Site updated'
+  - git commit -m 'Update site.'
   - git branch -m master
   - git push -q -u origin master
 

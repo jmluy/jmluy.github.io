@@ -1,6 +1,6 @@
 +++ 
 title = "Code license"
-draft = true
+draft = false
 date = 2010-01-31T12:41:18+08:00
 description = ""
 slug = "code-license" 

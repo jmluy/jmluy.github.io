@@ -1,6 +1,6 @@
 +++ 
 title = "Using a custom validator with JSR 303 annotations"
-draft = true
+draft = false
 date = 2010-09-28T09:16:22+08:00
 description = ""
 slug = "custom-validator-jsr330-annotations" 

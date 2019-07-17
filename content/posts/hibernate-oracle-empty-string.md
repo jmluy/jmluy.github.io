@@ -1,6 +1,6 @@
 +++ 
 title = "Hibernate, Oracle and the empty string"
-draft = true
+draft = false
 date = 2010-08-12T11:18:05+08:00
 description = ""
 slug = "hibernate-oracle-empty-string" 

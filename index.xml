@@ -65,7 +65,7 @@ The model</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.jmluy.dev/about/</guid>
-      <description>I am a software developer with experience being a lead, an architect and an engineering manager. I currently work as a technical lead working on www.hungrygowhere.com My experience is mostly on web development using Java, PHP and Javascript with a bit of Python.</description>
+      <description>I am a software developer with experience being a lead, an architect and an engineering manager. I currently work as a technical lead working on www.hungrygowhere.com. My experience is mostly on web development using Java, PHP and Javascript with a bit of Python.</description>
     </item>
     
     <item>
@@ -84,9 +84,10 @@ The model</description>
       
       <guid>https://www.jmluy.dev/resume/</guid>
       <description>John Michael Luy Email: johnmichael.luy (at) gmail.com
-Address: 488 Upper East Coast Road, Venezio #02-04 Singapore 466520
 Profile I am a software engineer with experience in a variety of software projects and roles from engineer, technical lead and engineering manager. I have a background in using Software Development Lifecycle and Agile in development. I am adaptable and has extensive experience in web development and in leading teams.
-Technical Skills Languages: Java, PHP, Javascript Databases: PostgreSQL, MySQL, Oracle Technology/Tools: Spring, Hibernate, JPA, Servlets/JSP, Maven, Symfony, ElasticSearch, jQuery, Git, Subversion</description>
+Technical Skills Languages: Java, PHP, Javascript
+Databases: PostgreSQL, MySQL, Oracle
+Technology/Tools: Spring, Hibernate, JPA, Servlets/JSP, Maven, Symfony, ElasticSearch, jQuery, Git, Subversion</description>
     </item>
     
   </channel>
